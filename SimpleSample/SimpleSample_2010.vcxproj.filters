@@ -1,0 +1,665 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns:atg="http://atg.xbox.com" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8e114980-c1a3-4ada-ad7c-83caadf5daeb}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="DXUT">
+      <UniqueIdentifier>{a43c5c25-0e86-4a20-b64a-883785ff74fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{2c3d4c8c-5d1a-459a-a05a-a4e4b608a44e}</UniqueIdentifier>
+      <Extensions>fx;fxh;hlsl</Extensions>
+    </Filter>
+    <Filter Include="01. Header">
+      <UniqueIdentifier>{4096cff4-d4ca-461f-b521-58752e454a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System">
+      <UniqueIdentifier>{bd0739a4-b75b-4277-a4b1-f35611604ccd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource">
+      <UniqueIdentifier>{0e71ba79-b49b-46df-a944-44dc95a88643}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene">
+      <UniqueIdentifier>{b1465101-c657-4ab3-9860-8b45174f6edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object">
+      <UniqueIdentifier>{3639edd2-3ddb-4d6e-ae36-9836716396f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System\01. Mgr">
+      <UniqueIdentifier>{901e29fc-4995-4422-b1dd-b79a560a18f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System\02. Camera">
+      <UniqueIdentifier>{ae070487-d36d-49dc-8980-cfa58d79652d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\01. Mgr">
+      <UniqueIdentifier>{24fc9079-29a0-41dd-b6c7-508b27a82a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\02. AseFile">
+      <UniqueIdentifier>{8bec917d-994b-4191-b501-6b2f9e9b565f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\03. SpriteFile">
+      <UniqueIdentifier>{70d9b0dd-8e01-446f-8083-5b247fc68860}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\01. Mgr">
+      <UniqueIdentifier>{ae22cd84-0b1a-4355-8e7e-006b1898961f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\02. AseFile\01. Loader">
+      <UniqueIdentifier>{c1cbf58b-80b4-4b31-8ee0-02c85807b8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\04. TextureFile">
+      <UniqueIdentifier>{d1d05e23-e74b-4be3-8848-3d2bd3b9ffc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\05. Shader">
+      <UniqueIdentifier>{7c3689d2-d1fe-4851-b70b-4d8547049562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\05. Shader\01. CustomShader">
+      <UniqueIdentifier>{c3117a18-41b5-48d5-b748-f8c746748410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\01. Mgr">
+      <UniqueIdentifier>{9cb51497-496c-4c1e-9eb1-6ad2d5443cc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj">
+      <UniqueIdentifier>{e12216fe-4c7b-4c1d-9345-a305515204d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\01. Player">
+      <UniqueIdentifier>{e06ffcf3-a097-4607-80a8-585984fabe00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\03. Map">
+      <UniqueIdentifier>{496808c3-9be8-4dcc-bbc3-84164bec252c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System\03. Timer">
+      <UniqueIdentifier>{e689cfea-02d3-4ff8-9cf7-ade68b8adf29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\05. Shader\03. ApplyShadow">
+      <UniqueIdentifier>{56594661-94cc-42bb-afa6-c999094546cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Resource\05. Shader\02. CreateShadow">
+      <UniqueIdentifier>{1a0d464d-4b9a-4d36-abc8-993d6a59a103}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun">
+      <UniqueIdentifier>{7840bcdb-a796-424a-8fae-fc47b1fd5eed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\01. NormalGun">
+      <UniqueIdentifier>{d7e0cb09-3c5e-4892-bfdf-facba57b1ce2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\02. Bullet">
+      <UniqueIdentifier>{0a1be928-03d4-4984-85a8-2940073ed78a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\03. Monster">
+      <UniqueIdentifier>{da653c2b-fd9f-4673-a846-4e34b492d91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System\04. TypeInfo">
+      <UniqueIdentifier>{2f8a3310-f8d1-4126-817c-548d1c78a5ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\02. FastGun">
+      <UniqueIdentifier>{bee4ac35-3671-4e4b-b514-abc9b18205e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\03. ThreeWayGun">
+      <UniqueIdentifier>{0d82e7c2-e6cd-4819-b34f-bbc2b7ae34f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\04. LaserGun">
+      <UniqueIdentifier>{fa90f62f-7930-440d-8ce4-00c82d4a084b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\05. Effect">
+      <UniqueIdentifier>{35e53c93-0554-4dd6-82d0-5368b3b59d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\03. Map\01. SubMap">
+      <UniqueIdentifier>{c2f9a012-7e36-46e7-9c70-9e449b1e8b08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\04. Item">
+      <UniqueIdentifier>{411196a3-9ace-415d-8778-3779dcc98b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\04. Item\01. Ability">
+      <UniqueIdentifier>{0f5a0bc3-ad33-4635-b122-2d070fccd6a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\04. Item\01. Ability\01. SpeedAbility">
+      <UniqueIdentifier>{e4559198-07cf-4512-a3d5-097f070fc176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\06. MovePatten">
+      <UniqueIdentifier>{9895303b-2c9e-4e2f-a138-96b64ff795e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\06. MovePatten\01. SideMove">
+      <UniqueIdentifier>{054df70a-5784-4d7b-93e3-5b00737b86ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\03. Map\02. MapGenerate">
+      <UniqueIdentifier>{3a1d7c97-c6df-4bc7-9328-ee88a8457a2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\01. Player\01. SubPlayer">
+      <UniqueIdentifier>{7d2294af-0ea6-46bb-ac18-6b3fed0c47b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\03. Monster\01. MonsterSpawn">
+      <UniqueIdentifier>{df29554c-93ee-4183-8fb9-7fa9dee3dbd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\06. MovePatten\02. RushMove">
+      <UniqueIdentifier>{f648f39c-45bb-44ff-8ef2-d1feb04e5238}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\05. GuidedGun">
+      <UniqueIdentifier>{f17b4685-96f2-456c-8ac3-52d6223115bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\02. Bullet\01. Laser">
+      <UniqueIdentifier>{32538c94-4811-4479-8798-171e46708b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\06. MonsterGun">
+      <UniqueIdentifier>{80f1f352-4c02-446e-b0ca-1595a1f405a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\03. Monster\02. ThrowerMonster">
+      <UniqueIdentifier>{f0505617-e87f-4859-ad37-800c20f04fdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\06. MovePatten\03. ThrowMove">
+      <UniqueIdentifier>{64936a7d-5cc4-45f9-aeed-482c397bdab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\06. MovePatten\04. BossMove">
+      <UniqueIdentifier>{237e518d-7bd2-4552-a138-736baea7d2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\04. Gun\07. BossGun">
+      <UniqueIdentifier>{b2c402c9-8db0-4a1e-aa53-5b6ca909ab67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\07. Structure">
+      <UniqueIdentifier>{5d1bdd18-3ef6-411e-8245-61ebfb852ee5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\02. Intro">
+      <UniqueIdentifier>{19287638-cbe5-496d-963b-4a888b925837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\03. Home">
+      <UniqueIdentifier>{a7e230c0-d8c7-4eac-befc-cf45431dd542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Scene\04. Play">
+      <UniqueIdentifier>{e9ccb42b-8761-4094-ae16-62055e4cc3de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI">
+      <UniqueIdentifier>{b812b113-1787-4444-bdf8-2114534e4060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\01. Score">
+      <UniqueIdentifier>{b0b32a60-a659-4f6d-acc4-3816089793f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. System\02. Camera\01. LookCamera">
+      <UniqueIdentifier>{b2122bef-be54-43cb-b70a-2cf59ececf1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\02. MoveableObj\02. Bullet\02. Stone">
+      <UniqueIdentifier>{1d7bc560-81d7-4cbf-bed1-ca2d520696bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\02. BackUI">
+      <UniqueIdentifier>{8e731de0-d91a-447e-885c-b35d09a93b73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\03. Gauge">
+      <UniqueIdentifier>{acdaae9b-d6eb-4216-b16e-2ee528e394f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\04. SpreadUI">
+      <UniqueIdentifier>{d5346467-c9c2-4d67-a1f5-54991b21704e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\05. Back">
+      <UniqueIdentifier>{41247d49-0c8c-472d-9b67-967f36c3223b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\06. Button">
+      <UniqueIdentifier>{091db508-3d88-455e-aab4-99a2bc6dc4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Object\08. UI\07. RankBar">
+      <UniqueIdentifier>{df2df967-ac9a-4556-8cb4-e15648b66c83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DXUT\Optional\directx.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <ClInclude Include="DXUT\Core\DXUT.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTenum.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Core\DXUTmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Core\DXUT.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTenum.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Core\DXUTmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClInclude Include="DXUT\Optional\DXUTcamera.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTgui.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTres.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\DXUTsettingsdlg.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmesh.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUT\Optional\SDKmisc.h">
+      <Filter>DXUT</Filter>
+    </ClInclude>
+    <ClCompile Include="DXUT\Optional\DXUTcamera.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTgui.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTres.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\DXUTsettingsdlg.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmesh.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUT\Optional\SDKmisc.cpp">
+      <Filter>DXUT</Filter>
+    </ClCompile>
+    <None Include="ApplyShadow.fx">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CreateShadow.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SimpleSample.cpp" />
+    <ClCompile Include="cNode.cpp" />
+    <ClCompile Include="cSystemMgr.cpp">
+      <Filter>02. System\01. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="cCamera.cpp">
+      <Filter>02. System\02. Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceMgr.cpp">
+      <Filter>03. Resource\01. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="cResourceFile.cpp">
+      <Filter>03. Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjBase.cpp">
+      <Filter>05. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseFile.cpp">
+      <Filter>03. Resource\02. AseFile</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>05. Object\02. MoveableObj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="cBaseShader.cpp">
+      <Filter>03. Resource\05. Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="cCustomShader.cpp">
+      <Filter>03. Resource\05. Shader\01. CustomShader</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainGame.cpp" />
+    <ClCompile Include="cSceneMgr.cpp">
+      <Filter>04. Scene\01. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="cMoveableObj.cpp">
+      <Filter>05. Object\02. MoveableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="cMap.cpp">
+      <Filter>05. Object\03. Map</Filter>
+    </ClCompile>
+    <ClCompile Include="cTimer.cpp">
+      <Filter>02. System\03. Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="cObjectMgr.cpp">
+      <Filter>05. Object\01. Mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="cApplyShadow.cpp">
+      <Filter>03. Resource\05. Shader\03. ApplyShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="cCreateShadow.cpp">
+      <Filter>03. Resource\05. Shader\02. CreateShadow</Filter>
+    </ClCompile>
+    <ClCompile Include="cAseLoader.cpp">
+      <Filter>03. Resource\02. AseFile\01. Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="cGeomNode.cpp">
+      <Filter>03. Resource\02. AseFile\01. Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="cGun.cpp">
+      <Filter>05. Object\04. Gun</Filter>
+    </ClCompile>
+    <ClCompile Include="cNormalGun.cpp">
+      <Filter>05. Object\04. Gun\01. NormalGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cBullet.cpp">
+      <Filter>05. Object\02. MoveableObj\02. Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="cTypeInfo.cpp">
+      <Filter>02. System\04. TypeInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonster.cpp">
+      <Filter>05. Object\02. MoveableObj\03. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="cFastGun.cpp">
+      <Filter>05. Object\04. Gun\02. FastGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cThreeWayGun.cpp">
+      <Filter>05. Object\04. Gun\03. ThreeWayGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cTextureFile.cpp">
+      <Filter>03. Resource\04. TextureFile</Filter>
+    </ClCompile>
+    <ClCompile Include="cEffect.cpp">
+      <Filter>05. Object\05. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="cSubMap.cpp">
+      <Filter>05. Object\03. Map\01. SubMap</Filter>
+    </ClCompile>
+    <ClCompile Include="cItem.cpp">
+      <Filter>05. Object\02. MoveableObj\04. Item</Filter>
+    </ClCompile>
+    <ClCompile Include="cAbility.cpp">
+      <Filter>05. Object\02. MoveableObj\04. Item\01. Ability</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpeedAbility.cpp">
+      <Filter>05. Object\02. MoveableObj\04. Item\01. Ability\01. SpeedAbility</Filter>
+    </ClCompile>
+    <ClCompile Include="cSideMove.cpp">
+      <Filter>05. Object\06. MovePatten\01. SideMove</Filter>
+    </ClCompile>
+    <ClCompile Include="cMovePattern.cpp">
+      <Filter>05. Object\06. MovePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="cMapGenerate.cpp">
+      <Filter>05. Object\03. Map\02. MapGenerate</Filter>
+    </ClCompile>
+    <ClCompile Include="cSubPlayer.cpp">
+      <Filter>05. Object\02. MoveableObj\01. Player\01. SubPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterSpawn.cpp">
+      <Filter>05. Object\02. MoveableObj\03. Monster\01. MonsterSpawn</Filter>
+    </ClCompile>
+    <ClCompile Include="cRushMove.cpp">
+      <Filter>05. Object\06. MovePatten\02. RushMove</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpriteFile.cpp">
+      <Filter>03. Resource\03. SpriteFile</Filter>
+    </ClCompile>
+    <ClCompile Include="cGuidedGun.cpp">
+      <Filter>05. Object\04. Gun\05. GuidedGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cLaserGun.cpp">
+      <Filter>05. Object\04. Gun\04. LaserGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cLaser.cpp">
+      <Filter>05. Object\02. MoveableObj\02. Bullet\01. Laser</Filter>
+    </ClCompile>
+    <ClCompile Include="cMonsterGun.cpp">
+      <Filter>05. Object\04. Gun\06. MonsterGun</Filter>
+    </ClCompile>
+    <ClCompile Include="ThrowerMonster.cpp">
+      <Filter>05. Object\02. MoveableObj\03. Monster\02. ThrowerMonster</Filter>
+    </ClCompile>
+    <ClCompile Include="cThrowMove.cpp">
+      <Filter>05. Object\06. MovePatten\03. ThrowMove</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossMove.cpp">
+      <Filter>05. Object\06. MovePatten\04. BossMove</Filter>
+    </ClCompile>
+    <ClCompile Include="cBossGun.cpp">
+      <Filter>05. Object\04. Gun\07. BossGun</Filter>
+    </ClCompile>
+    <ClCompile Include="cStructure.cpp">
+      <Filter>05. Object\07. Structure</Filter>
+    </ClCompile>
+    <ClCompile Include="cNumber.cpp">
+      <Filter>05. Object\08. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="cIntroScene.cpp">
+      <Filter>04. Scene\02. Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="cHomeScene.cpp">
+      <Filter>04. Scene\03. Home</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayScene.cpp">
+      <Filter>04. Scene\04. Play</Filter>
+    </ClCompile>
+    <ClCompile Include="cScene.cpp">
+      <Filter>04. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="cLookCamera.cpp">
+      <Filter>02. System\02. Camera\01. LookCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="cStone.cpp">
+      <Filter>05. Object\02. MoveableObj\02. Bullet\02. Stone</Filter>
+    </ClCompile>
+    <ClCompile Include="cBackUI.cpp">
+      <Filter>05. Object\08. UI\02. BackUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cGauge.cpp">
+      <Filter>05. Object\08. UI\03. Gauge</Filter>
+    </ClCompile>
+    <ClCompile Include="cSpreadUI.cpp">
+      <Filter>05. Object\08. UI\04. SpreadUI</Filter>
+    </ClCompile>
+    <ClCompile Include="cBackEff.cpp">
+      <Filter>05. Object\08. UI\05. Back</Filter>
+    </ClCompile>
+    <ClCompile Include="cButton.cpp">
+      <Filter>05. Object\08. UI\06. Button</Filter>
+    </ClCompile>
+    <ClCompile Include="cRankBar.cpp">
+      <Filter>05. Object\08. UI\07. RankBar</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="SimpleSample.fx">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CLInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </CLInclude>
+    <ResourceCompile Include="SimpleSample.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ClInclude Include="cNode.h" />
+    <ClInclude Include="value.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="const.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="struct.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cSystemMgr.h">
+      <Filter>02. System\01. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceMgr.h">
+      <Filter>03. Resource\01. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="cResourceFile.h">
+      <Filter>03. Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjectMgr.h">
+      <Filter>05. Object\01. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="cObjBase.h">
+      <Filter>05. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="cCamera.h">
+      <Filter>02. System\02. Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseFile.h">
+      <Filter>03. Resource\02. AseFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>05. Object\02. MoveableObj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="cBaseShader.h">
+      <Filter>03. Resource\05. Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="cCustomShader.h">
+      <Filter>03. Resource\05. Shader\01. CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainGame.h" />
+    <ClInclude Include="enum.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneMgr.h">
+      <Filter>04. Scene\01. Mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="cMoveableObj.h">
+      <Filter>05. Object\02. MoveableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="cMap.h">
+      <Filter>05. Object\03. Map</Filter>
+    </ClInclude>
+    <ClInclude Include="cTimer.h">
+      <Filter>02. System\03. Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="cApplyShadow.h">
+      <Filter>03. Resource\05. Shader\03. ApplyShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="cCreateShadow.h">
+      <Filter>03. Resource\05. Shader\02. CreateShadow</Filter>
+    </ClInclude>
+    <ClInclude Include="cAseLoader.h">
+      <Filter>03. Resource\02. AseFile\01. Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="shared.h">
+      <Filter>01. Header</Filter>
+    </ClInclude>
+    <ClInclude Include="cGun.h">
+      <Filter>05. Object\04. Gun</Filter>
+    </ClInclude>
+    <ClInclude Include="cBullet.h">
+      <Filter>05. Object\02. MoveableObj\02. Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="cTypeInfo.h">
+      <Filter>02. System\04. TypeInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonster.h">
+      <Filter>05. Object\02. MoveableObj\03. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="cFastGun.h">
+      <Filter>05. Object\04. Gun\02. FastGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cThreeWayGun.h">
+      <Filter>05. Object\04. Gun\03. ThreeWayGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cTextureFile.h">
+      <Filter>03. Resource\04. TextureFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cEffect.h">
+      <Filter>05. Object\05. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="cSubMap.h">
+      <Filter>05. Object\03. Map\01. SubMap</Filter>
+    </ClInclude>
+    <ClInclude Include="cItem.h">
+      <Filter>05. Object\02. MoveableObj\04. Item</Filter>
+    </ClInclude>
+    <ClInclude Include="cAbility.h">
+      <Filter>05. Object\02. MoveableObj\04. Item\01. Ability</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpeedAbility.h">
+      <Filter>05. Object\02. MoveableObj\04. Item\01. Ability\01. SpeedAbility</Filter>
+    </ClInclude>
+    <ClInclude Include="cSideMove.h">
+      <Filter>05. Object\06. MovePatten\01. SideMove</Filter>
+    </ClInclude>
+    <ClInclude Include="cMovePattern.h">
+      <Filter>05. Object\06. MovePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="cMapGenerate.h">
+      <Filter>05. Object\03. Map\02. MapGenerate</Filter>
+    </ClInclude>
+    <ClInclude Include="cSubPlayer.h">
+      <Filter>05. Object\02. MoveableObj\01. Player\01. SubPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterSpawn.h">
+      <Filter>05. Object\02. MoveableObj\03. Monster\01. MonsterSpawn</Filter>
+    </ClInclude>
+    <ClInclude Include="cRushMove.h">
+      <Filter>05. Object\06. MovePatten\02. RushMove</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpriteFile.h">
+      <Filter>03. Resource\03. SpriteFile</Filter>
+    </ClInclude>
+    <ClInclude Include="cNormalGun.h">
+      <Filter>05. Object\04. Gun\01. NormalGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cGuidedGun.h">
+      <Filter>05. Object\04. Gun\05. GuidedGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cLaserGun.h">
+      <Filter>05. Object\04. Gun\04. LaserGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cLaser.h">
+      <Filter>05. Object\02. MoveableObj\02. Bullet\01. Laser</Filter>
+    </ClInclude>
+    <ClInclude Include="cMonsterGun.h">
+      <Filter>05. Object\04. Gun\06. MonsterGun</Filter>
+    </ClInclude>
+    <ClInclude Include="ThrowerMonster.h">
+      <Filter>05. Object\02. MoveableObj\03. Monster\02. ThrowerMonster</Filter>
+    </ClInclude>
+    <ClInclude Include="cThrowMove.h">
+      <Filter>05. Object\06. MovePatten\03. ThrowMove</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossMove.h">
+      <Filter>05. Object\06. MovePatten\04. BossMove</Filter>
+    </ClInclude>
+    <ClInclude Include="cBossGun.h">
+      <Filter>05. Object\04. Gun\07. BossGun</Filter>
+    </ClInclude>
+    <ClInclude Include="cStructure.h">
+      <Filter>05. Object\07. Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="cGeomNode.h">
+      <Filter>03. Resource\02. AseFile\01. Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="cNumber.h">
+      <Filter>05. Object\08. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="cIntroScene.h">
+      <Filter>04. Scene\02. Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="cHomeScene.h">
+      <Filter>04. Scene\03. Home</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayScene.h">
+      <Filter>04. Scene\04. Play</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>04. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="cLookCamera.h">
+      <Filter>02. System\02. Camera\01. LookCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="cStone.h">
+      <Filter>05. Object\02. MoveableObj\02. Bullet\02. Stone</Filter>
+    </ClInclude>
+    <ClInclude Include="cBackUI.h">
+      <Filter>05. Object\08. UI\02. BackUI</Filter>
+    </ClInclude>
+    <ClInclude Include="cGauge.h">
+      <Filter>05. Object\08. UI\03. Gauge</Filter>
+    </ClInclude>
+    <ClInclude Include="cSpreadUI.h">
+      <Filter>05. Object\08. UI\04. SpreadUI</Filter>
+    </ClInclude>
+    <ClInclude Include="cBackEff.h">
+      <Filter>05. Object\08. UI\05. Back</Filter>
+    </ClInclude>
+    <ClInclude Include="cButton.h">
+      <Filter>05. Object\08. UI\06. Button</Filter>
+    </ClInclude>
+    <ClInclude Include="cRankBar.h">
+      <Filter>05. Object\08. UI\07. RankBar</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

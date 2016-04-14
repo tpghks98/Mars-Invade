@@ -1,0 +1,92 @@
+﻿빌드 시작: 2016-04-08 오후 1:22:30
+     1>2 노드의 "D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\SimpleSample_2010.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /Zi /nologo /W4 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"DXUT.h" /Fp"Release\SimpleSample.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  cLookCamera.cpp cSideMove.cpp
+         cLookCamera.cpp
+     1>d:\download data\연습용\0304 - simplesample\simplesample\cObjBase.h(13): warning C4324: 'cObjBase' : __declspec(align()) 때문에 구조체가 채워졌습니다.
+         cSideMove.cpp
+     1>d:\download data\연습용\0304 - simplesample\simplesample\cObjBase.h(13): warning C4324: 'cObjBase' : __declspec(align()) 때문에 구조체가 채워졌습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Release\SimpleSample.exe" /INCREMENTAL:NO /NOLOGO d3dx10.lib d3dx9.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Release\SimpleSample.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Release\SimpleSample.lib" /MACHINE:X86 /SAFESEH  Release\SimpleSample.res
+         Release\cBackEff.obj
+         Release\cBackUI.obj
+         Release\cBossGun.obj
+         Release\cBossMove.obj
+         Release\cButton.obj
+         Release\cGauge.obj
+         Release\cHomeScene.obj
+         Release\cIntroScene.obj
+         Release\cLookCamera.obj
+         Release\cNumber.obj
+         Release\cPlayScene.obj
+         Release\cRankBar.obj
+         Release\cScene.obj
+         Release\cSpreadUI.obj
+         Release\cStone.obj
+         Release\cStructure.obj
+         Release\cThrowMove.obj
+         Release\ThrowerMonster.obj
+         Release\cAbility.obj
+         Release\cApplyShadow.obj
+         Release\cAseFile.obj
+         Release\cAseLoader.obj
+         Release\cBaseShader.obj
+         Release\cBullet.obj
+         Release\cCamera.obj
+         Release\cCreateShadow.obj
+         Release\cCustomShader.obj
+         Release\cEffect.obj
+         Release\cFastGun.obj
+         Release\cGeomNode.obj
+         Release\cGuidedGun.obj
+         Release\cGun.obj
+         Release\cItem.obj
+         Release\cLaser.obj
+         Release\cLaserGun.obj
+         Release\cMainGame.obj
+         Release\cMap.obj
+         Release\cMapGenerate.obj
+         Release\cMonster.obj
+         Release\cMonsterGun.obj
+         Release\cMonsterSpawn.obj
+         Release\cMoveableObj.obj
+         Release\cMovePattern.obj
+         Release\cNode.obj
+         Release\cNormalGun.obj
+         Release\cObjBase.obj
+         Release\cObjectMgr.obj
+         Release\cPlayer.obj
+         Release\cResourceFile.obj
+         Release\cResourceMgr.obj
+         Release\cRushMove.obj
+         Release\cSceneMgr.obj
+         Release\cSideMove.obj
+         Release\cSpeedAbility.obj
+         Release\cSpriteFile.obj
+         Release\cSubMap.obj
+         Release\cSubPlayer.obj
+         Release\cSystemMgr.obj
+         Release\cTextureFile.obj
+         Release\cThreeWayGun.obj
+         Release\cTimer.obj
+         Release\cTypeInfo.obj
+         Release\DXUT.obj
+         Release\DXUTenum.obj
+         Release\DXUTmisc.obj
+         Release\DXUTcamera.obj
+         Release\DXUTgui.obj
+         Release\DXUTres.obj
+         Release\DXUTsettingsdlg.obj
+         Release\SDKmesh.obj
+         Release\SDKmisc.obj
+         Release\SimpleSample.obj
+         코드를 생성하고 있습니다.
+     1>d:\download data\연습용\0304 - simplesample\simplesample\cobjectmgr.cpp(284): warning C4715: 'cObjectMgr::IsMapCollisionCheck' : 모든 제어 경로에서 값을 반환하지는 않습니다.
+     1>d:\download data\연습용\0304 - simplesample\simplesample\caseloader.cpp(26): warning C4706: 조건식 내에 할당이 있습니다.
+         코드를 생성했습니다.
+         SimpleSample_2010.vcxproj -> D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Release\SimpleSample.exe
+     1>"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\SimpleSample_2010.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:09.70

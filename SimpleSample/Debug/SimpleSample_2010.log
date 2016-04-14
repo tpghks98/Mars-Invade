@@ -1,0 +1,90 @@
+﻿빌드 시작: 2016-04-11 오후 6:30:32
+     1>2 노드의 "D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\SimpleSample_2010.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IDXUT\Core /IDXUT\Optional /ZI /nologo /W4 /WX- /Od /Oi /Oy- /D WIN32 /D _DEBUG /D DEBUG /D PROFILE /D _WINDOWS /D D3DXFX_LARGEADDRESS_HANDLE /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /openmp- /Yu"DXUT.h" /Fp"Debug\SimpleSample.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  cSystemMgr.cpp
+         cSystemMgr.cpp
+     1>d:\download data\연습용\0304 - simplesample\simplesample\csystemmgr.cpp(63): warning C4244: '인수' : 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\download data\연습용\0304 - simplesample\simplesample\csystemmgr.cpp(119): warning C4800: 'int' : 'true' 또는 'false'로 bool 값을 강제하고 있습니다(성능 경고).
+     1>d:\download data\연습용\0304 - simplesample\simplesample\csystemmgr.cpp(210): warning C4244: '=' : 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\download data\연습용\0304 - simplesample\simplesample\csystemmgr.cpp(211): warning C4244: '=' : 'int'에서 'FLOAT'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     1>d:\download data\연습용\0304 - simplesample\simplesample\csystemmgr.cpp(228): warning C4189: 's' : 지역 변수가 초기화되었으나 참조되지 않았습니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Debug\SimpleSample.exe" /INCREMENTAL /NOLOGO d3dx10d.lib d3dx9d.lib dxerr.lib dxguid.lib winmm.lib comctl32.lib dsound.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Debug\SimpleSample.pdb" /SUBSYSTEM:WINDOWS /LARGEADDRESSAWARE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Debug\SimpleSample.lib" /MACHINE:X86 /SAFESEH  Debug\SimpleSample.res
+         Debug\cBackEff.obj
+         Debug\cBackUI.obj
+         Debug\cBossGun.obj
+         Debug\cBossMove.obj
+         Debug\cButton.obj
+         Debug\cGauge.obj
+         Debug\cHomeScene.obj
+         Debug\cIntroScene.obj
+         Debug\cLookCamera.obj
+         Debug\cNumber.obj
+         Debug\cPlayScene.obj
+         Debug\cRankBar.obj
+         Debug\cScene.obj
+         Debug\cSpreadUI.obj
+         Debug\cStone.obj
+         Debug\cStructure.obj
+         Debug\cThrowMove.obj
+         Debug\ThrowerMonster.obj
+         Debug\cAbility.obj
+         Debug\cApplyShadow.obj
+         Debug\cAseFile.obj
+         Debug\cAseLoader.obj
+         Debug\cBaseShader.obj
+         Debug\cBullet.obj
+         Debug\cCamera.obj
+         Debug\cCreateShadow.obj
+         Debug\cCustomShader.obj
+         Debug\cEffect.obj
+         Debug\cFastGun.obj
+         Debug\cGeomNode.obj
+         Debug\cGuidedGun.obj
+         Debug\cGun.obj
+         Debug\cItem.obj
+         Debug\cLaser.obj
+         Debug\cLaserGun.obj
+         Debug\cMainGame.obj
+         Debug\cMap.obj
+         Debug\cMapGenerate.obj
+         Debug\cMonster.obj
+         Debug\cMonsterGun.obj
+         Debug\cMonsterSpawn.obj
+         Debug\cMoveableObj.obj
+         Debug\cMovePattern.obj
+         Debug\cNode.obj
+         Debug\cNormalGun.obj
+         Debug\cObjBase.obj
+         Debug\cObjectMgr.obj
+         Debug\cPlayer.obj
+         Debug\cResourceFile.obj
+         Debug\cResourceMgr.obj
+         Debug\cRushMove.obj
+         Debug\cSceneMgr.obj
+         Debug\cSideMove.obj
+         Debug\cSpeedAbility.obj
+         Debug\cSpriteFile.obj
+         Debug\cSubMap.obj
+         Debug\cSubPlayer.obj
+         Debug\cSystemMgr.obj
+         Debug\cTextureFile.obj
+         Debug\cThreeWayGun.obj
+         Debug\cTimer.obj
+         Debug\cTypeInfo.obj
+         Debug\DXUT.obj
+         Debug\DXUTenum.obj
+         Debug\DXUTmisc.obj
+         Debug\DXUTcamera.obj
+         Debug\DXUTgui.obj
+         Debug\DXUTres.obj
+         Debug\DXUTsettingsdlg.obj
+         Debug\SDKmesh.obj
+         Debug\SDKmisc.obj
+         Debug\SimpleSample.obj
+         SimpleSample_2010.vcxproj -> D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\Debug\SimpleSample.exe
+     1>"D:\Download Data\연습용\0304 - SimpleSample\SimpleSample\SimpleSample_2010.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:06.00
